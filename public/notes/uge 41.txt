@@ -1,0 +1,10 @@
+hvad er view-height?
+
+templateEngine & pokemon-battle injection
+
+fordel ved serverside-rendeirng: SCO. fordi ens side bliver severet helt færdig - derfor mere
+aflæselig af scrapers.
+
+fetching - lær det!
+
+begyndt på svelte. installation....

@@ -1,0 +1,34 @@
+<h2>hvad er node.js?</h2>
+<p>javascript v8 engine ud af browseren lokalt -> nu kan man lave serverside (uden én browser); 
+API'er, filhåndtereing, databasehåndtering. now you can do "anything"!</p>
+
+<p>REPL i terminalen - read–eval–print loop (når man skriver "node" i terminallen):</p>
+<img src="../global/repl.jpg">
+
+<p>type coercion. javascript(node) har ikke type-scripting.</p>
+
+<h4>how to use git (send):</h4>
+<p><code>git add -A</code> (git add all. kan bruges hvor som helst i repositorien)</p>
+<p><code>git commmit -m</code> (klargør push med en besked)</p>
+<p><code>git push</code> (send det afsted!)</p>
+
+<h4>how to use git(recieve):</h4>
+<p><code>get clone --adresse--</code></p>
+
+<p>gennemgang af rest api og dets grundlæggende gode design.</p>
+<img src="../global/pokemon.jpg">
+
+
+<p>Lavede package.json manuelt</p>
+<code>{<br>
+  "type": "module",<br>
+  "dependencies": {<br>
+    "express": "^4.18.1"<br>
+  },<br>
+  "scripts": {<br>
+    "start-dev": "nodemon app.js",<br>
+    "start-prod": "node app.js"<br>
+  }<br>
+}<br>
+</code>
+<p>basic express lavet. vi skrev "express":"4.18.1". derefter "npm install" i samme mappe</p>

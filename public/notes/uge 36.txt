@@ -1,0 +1,36 @@
+Brugte filen "functions.js"
+
+Variable declerations:
+
+forskel på 'let' og 'var'. og brugen af 'strict mode'
+totalGlobalVariable = "Malthe";
+var globalVariable = "Malthe";
+let localVariable = "Malthe"; // dette er det anbefalet dekleration
+const...
+
+{
+ // dette er et nyt scope
+	{
+		// endnu et nyt scope i et scope - lexical scope (block scope?)
+	}
+}
+
+snak om hoisting
+
+snak om anonyme funktioner. (og functioner som variabler)
+
+snak om arrow functions - og implicit arrow functions.
+
+snak om vigtigheden bag clean clode og at være konsistent med brugen af metode-løsninen.
+
+snak om callback functions. Javascript bruger callback funtioner til dets event-listener.
+
+snak om funktion vs funktionsreference
+
+----
+
+gennemgang af opsætning af en node-server.
+
+hvordan sender man data med get?
+query-strings (?key1=value1&key2=value2) og path variables /deers/[path]
+

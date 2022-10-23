@@ -1,0 +1,11 @@
+css placering af footer.
+
+snak om forms - og hvorfor de ikke er tilstrækkelige i 2022.
+
+snak om server-side-rendering vs client-side-rendering.
+
+%%TABLE_TITLE%%
+
+fs package.
+readfilesync = synkront - dvs blokerer for alt andet (de næste linjer)
+readfile = asynkront :-)

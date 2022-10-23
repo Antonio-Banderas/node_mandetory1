@@ -1,0 +1,20 @@
+gennemgang af lektier
+javascript dates....
+
+snak igen om java - pom.xml, hvor vores build tools i node er NPM.
+_____________________________________
+Maven		|vs|    NPM
+pom-xml		|  |	package.json
+
+	sections/responsibilities
+
+meta-data	|  |	meta data
+dependencies	|  |	dependencides
+life-cycles	|  |	scripts (scipts man invokere)
+
+
+
+scripts i package.json
+nodeman og scripts i vores package.json....
+
+node type.module?  __dirname

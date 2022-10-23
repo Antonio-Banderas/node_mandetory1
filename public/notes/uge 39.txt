@@ -1,0 +1,9 @@
+miljø-variabel = process.env.PORT 
+process er en grundsten af node.
+
+terminal-commands.
+snak om XSS.
+
+redirecting:
+href, replace og assign i javasript
+

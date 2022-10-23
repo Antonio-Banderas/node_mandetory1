@@ -1,0 +1,73 @@
+html {
+    font-family: system-ui;
+    background-color: rgb(230, 230, 231);
+    overflow-y: scroll;
+}
+
+body {
+    margin-top: 64px;
+    margin-left: 22%;
+    margin-right: 22%;
+
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr 54px;
+    gap: 32px 32px;
+
+    grid-template-areas:
+        "main aside"
+        "footer .";
+}
+
+main {
+    grid-area: main;
+    padding: 25px;
+
+    background-color: whitesmoke;
+    border: 2px black solid;
+    border-radius: 5px;
+
+}
+
+aside {
+    grid-area: aside;
+
+    position: sticky;
+    align-self: start;
+    top: 64px;
+}
+
+nav {
+    background-color: whitesmoke;
+    border: 2px black solid;
+    border-radius: 5px;
+
+    padding: 5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+/* ---- misc ---- */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover,
+footer a:hover {
+    font-weight: 1000;
+}
+
+code {
+    padding: 0.2em 0.4em;
+    background-color: rgba(160, 163, 167, 0.685);
+    border-radius: 6px;
+}
