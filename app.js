@@ -21,6 +21,13 @@ const create = fs.readFileSync("./public/admin/create.html").toString();
 // const mainMain = mainFile.toString();
 
 // --- PATHS --- //
+
+app.get("/", (req, res) => {
+    const main = fs.readFileSync("./public/notes/" + "uge 35.txt").toString(); 
+    const page = header.replace("%%DOCUMENT_TITLE%%", "documentation") + aside + main + footer;
+    res.send(page);
+});
+
 app.get("/documentation/:path", (req, res) => {
     const path = req.params.path;
     console.log(path);
